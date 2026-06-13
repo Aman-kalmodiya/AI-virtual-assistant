@@ -5,7 +5,7 @@ import authRouter from "./routes/auth.routes.js";
 import cookieParser from "cookie-parser";
 import cors from "cors"
 import userRouter from "./routes/user.routes.js";
-import geminiReaponse from "./gemini.js";
+import  geminiResponse from "./gemini.js";
 dotenv.config();
 
 const app = express();
