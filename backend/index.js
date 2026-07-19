@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT;
 app.use(cors({
-    origin: ["http://localhost:5173", "https://ai-virtual-assistant-b4m2.onrender.com"],
+    origin: ["http://localhost:5173", "https://ai-virtual-assistant-b4m2.onrender.com","https://ai-virtual-assistant-frontend-03gq.onrender.com"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization", "Cookie"]
